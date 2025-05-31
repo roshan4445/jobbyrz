@@ -9,7 +9,7 @@
 .home-container {
     background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
     background-size: cover;
-   
+    background-position: center;
     width: 100vw; 
     flex-grow: 1; 
     display: flex;
