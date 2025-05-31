@@ -5,7 +5,7 @@ import Jobs from './Components/Jobs';
 import './App.css'
 import ProtectedRoute from './Components/ProtectedRoute';
 import JobDetails from './Components/jobdetails'
-
+import NotFound from './Components/NotFound';
 const App = () => (
   <>
     <Routes>
@@ -19,6 +19,7 @@ const App = () => (
       <Route path="/jobs/:id" element={
         <ProtectedRoute><JobDetails /></ProtectedRoute>
       } />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   </>
 )

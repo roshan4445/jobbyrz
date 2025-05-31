@@ -25,6 +25,12 @@ const options={
         }
         setProfileData(formattedData)
     }
+    else{
+        <div className="error-container">
+            <button className="error-button" onClick={fetchProfileData}>Retry</button>
+
+        </div>
+    }
     
     
 
