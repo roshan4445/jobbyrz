@@ -4,7 +4,7 @@ import LoginForm from './Components/LoginForm';
 import Jobs from './Components/Jobs';
 import './App.css'
 import ProtectedRoute from './Components/ProtectedRoute';
-import JobDetails from './Components/jobdetails'
+import JobDetails from './Components/jobDetails'
 import NotFound from './Components/NotFound';
 const App = () => (
   <>
